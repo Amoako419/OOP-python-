@@ -21,3 +21,13 @@ def whatis(thing):
         print(thing, "is False")
         
 whatis(0.00000001)
+
+
+
+#Positional Argument
+
+def menu(wine,entree,dessert):
+    return{'wine':wine, 'entree':entree, 'dessert':dessert}
+
+lunch = menu('coke','rice','water')
+print(lunch)
