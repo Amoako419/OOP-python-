@@ -15,3 +15,12 @@ inputArray = [3,6,-2,-5,7,3]
 # solution([3,6,-2,-5,7,3])
 inputArray.sort()
 print(inputArray)
+
+
+
+
+# Bit length
+def answer(n):
+    return n.bit_length()
+
+answer(50)
