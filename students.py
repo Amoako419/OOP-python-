@@ -5,5 +5,8 @@ class Student:
         self.marks = marks
 
 student1  = Student('Kofi',1234,90)
-
+student2 = Student('Ama',567,89)
 print(student1.name)
+print(student2.name)
+print(student1.roll_num)
+print(student2.roll_num)
