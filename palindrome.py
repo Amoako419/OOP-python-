@@ -1,6 +1,6 @@
-# def solution(inputString):
-#     return inputString == inputString[::-1]
-# print(solution('racecar'))
+def solution(inputString):
+    return inputString == inputString[::-1]
+print(solution('racecar'))
 
 
 # letters = "abcdefghijklmnopqrstuvwxyz"
@@ -27,14 +27,14 @@
 # answer(50)
 
 
-def solution(n):
-    s = str(n)
-    half = len(s)//2
-    first = s[0:half]
-    last = s[half:-1]
-    if sum(first) == sum(last):
-        return True
-    else:
-        return False
+# def solution(n):
+#     s = str(n)
+#     half = len(s)//2
+#     first = s[0:half]
+#     last = s[half:-1]
+#     if sum(first) == sum(last):
+#         return True
+#     else:
+#         return False
     
-solution(1230)
+# solution(1230)
