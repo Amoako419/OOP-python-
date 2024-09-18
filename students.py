@@ -13,10 +13,10 @@
 
 
 def remove_duplicates(list):
-  seen = set()
+  Seen = set()
   result = []
   for item in list:
-    if item not in seen:
-      seen.add(item)
+    if item not in Seen:
+      Seen.add(item)
       result.append(item)
   return result
