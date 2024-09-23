@@ -14,4 +14,11 @@ print(iphone_X.Pname)
 print(iphone_X.Bname)
 print(iphone_X.Mname)
 print(iphone_X.price)
+
+print("////////////////////////////////////////////////////////////////")
+mac = Product('Macbook','Apple','Laptop','¢10k')
+print(mac.Pname)
+print(mac.Bname)
+print(mac.Mname)
+print(mac.price)
         
